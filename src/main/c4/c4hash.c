@@ -6,7 +6,7 @@
 //  Copyright © 2015 4th-A Technologies, LLC. All rights reserved.
 //
 
-#include "c4Internal.h"
+#include "c4internal.h"
 
 #ifdef __clang__
 #pragma mark - Hash

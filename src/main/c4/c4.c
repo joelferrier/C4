@@ -7,7 +7,7 @@
 //
 
  #include "c4.h"
-#include "c4Internal.h"
+#include "c4internal.h"
   
 #ifdef __clang__
 #pragma mark - init

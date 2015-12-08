@@ -16,7 +16,7 @@
 
 
 #include "c4.h"
-#include "c4Internal.h"
+#include "c4internal.h"
 
 #ifdef __APPLE__
 #import "git_version_hash.h"
