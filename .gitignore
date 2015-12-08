@@ -7,3 +7,4 @@ xcuserdata
 *.xcscmblueprint
 git_version_hash.h
 Icon?
+libs/yajl/src/*.o

@@ -475,6 +475,7 @@ static: $(STATIC_LIBRARY_FILE)
 
 clean:
 	rm -fR $(BUILD_DIR)
+	rm -f $(LOCAL_DIR)/libs/yajl/src/*.o
 
 TEST_CFLAGS := $(CFLAGS)
 
