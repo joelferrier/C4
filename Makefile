@@ -430,7 +430,7 @@ ifeq ($(OS_TYPE),darwin)
 	CFLAGS+=-DDARWIN
 endif
 
-CFLAGS+=-fPIC -g -std=c99 -Wall $(addprefix -I,$(MAIN_INCLUDE_DIRS))
+CFLAGS+=-fPIC -g -std=gnu99 -Wall $(addprefix -I,$(MAIN_INCLUDE_DIRS))
 COMPILE.c=$(CC) -c $(CFLAGS)
 
 LDFLAGS+=-shared -lc
