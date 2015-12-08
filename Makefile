@@ -592,6 +592,7 @@ show:
 	@printf "MAIN_INCLUDE_FILES = '$(MAIN_INCLUDE_FILES)'\n"
   
 headers: | $(EXPORT_HEADERS_DIR)
+	cd ${SOURCE_DIR}/../libs/yajl && ./configure
 	cp -fR $(SOURCE_DIR)/../libs/yajl/src/api/yajl_common.h $(EXPORT_HEADERS_DIR)/yajl/
 	cp -fR $(SOURCE_DIR)/../libs/yajl/build/yajl-2.1.1/include/yajl/yajl_version.h $(EXPORT_HEADERS_DIR)/yajl/
 	cp -fR $(MAIN_INCLUDE_FILES) $(EXPORT_HEADERS_DIR)
