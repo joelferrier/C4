@@ -463,9 +463,9 @@ ifneq ($(NDK_DIR),)
 	NDK_BUILD := $(NDK_DIR)/ndk-build
 endif
 
-all: headers host android osx ios
+all: host android osx ios
 
-host: shared static test archive
+host: headers shared static test archive
 
 archive: $(ARCHIVE_FILE)
 
